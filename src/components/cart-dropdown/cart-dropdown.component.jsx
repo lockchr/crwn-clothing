@@ -25,12 +25,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
         <EmptyMessageContainer>Your cart is empty</EmptyMessageContainer>
       )}
     </CartItemsContainer>
-    <CartDropdownButton
-      onClick={() => {
-        history.push("/checkout");
-        dispatch(toggleCartHidden());
-      }}
-    >
+    <CartDropdownButton onClick={() => {history.push("/checkout");dispatch(toggleCartHidden());}}>
       GO TO CHECKOUT
     </CartDropdownButton>
   </CartDropdownContainer>
