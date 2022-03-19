@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const HomePageContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 8px;
+  padding: 30px 45px
 `;
